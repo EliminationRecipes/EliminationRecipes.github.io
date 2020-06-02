@@ -1,0 +1,699 @@
+﻿/* ***** Fonts ***** */
+
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Quicksand:300,400,500,700|Shadows+Into+Light+Two');*/
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Source+Sans+Pro:400,700);
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#divDefaultMain {
+    margin-left: -10px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+.nav {
+    display: block;
+}
+
+/* custom */
+.yummy-font {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.danger {
+    color: #ff6360;
+}
+
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.font-lg {
+    font-size: 20px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.pad-right-15 {
+    padding-right: 15px;
+}
+
+.pad-top-10 {
+    padding-top:10px;
+}
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+.pad-top-60 {
+    padding-top: 60px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.pad-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.pad-5 {
+    padding: 5px;
+}
+
+.pad-left-10 {
+    padding-left: 10px;
+}
+
+.pad-left-20 {
+    padding-left: 20px;
+}
+
+.pad-right-20{
+    padding-right: 15px;
+}
+.alert-recipe {
+    padding: 10px;
+}
+
+.font16 {
+    font-size: 6em;
+}
+
+.recipe-name {
+    font-size: 16px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.inline {
+    display: inline;
+}
+
+.font60 {
+    font-size: 180px;
+    line-height: normal;
+}
+
+.normal-weight {
+    font-weight: 400;
+}
+
+.modal-title-text{
+    display:block;
+}
+
+    .modal-title-text h1, .modal-title-text h5 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.boring, .boring:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+
+.divWholeImagePanelClosed {
+    padding-left: 0px;
+}
+
+.badge {
+    margin-right: 3px;
+}
+
+hr {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+p.comment {
+    color: #000000;
+    margin-bottom: 0px;
+    line-height: normal;
+}
+
+small.comment {
+    /*margin-bottom:10px;*/
+}
+
+div.comment {
+    padding-top:15px;
+}
+
+div.reviewList {
+    margin-bottom: 0px;
+}
+
+.badge {
+    font-weight: 400;
+}
+.badge.safeBadge {
+    background-color: #ff6360;
+}
+
+.project-description {
+    cursor: pointer;
+}
+
+.favIcon-message {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 1;
+    font-size: 20px;
+    display: none;
+    color: black;
+    background: hsla(0,0%,100%,.5);
+}
+
+.commentsList {
+    background-color: #FFF4F4;
+    padding: 10px;
+}
+
+.commentBox {
+    border-bottom: solid 1px #FFE2E2;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.pink {
+    color: #ff6360;
+}
+
+#wheresMySafeBody {
+    font-size: 16px;
+    /*padding: 20px;*/
+
+}
+/*SEARCH*/
+.mainSearch.fa-search {
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row.search {
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.jumbotron.main {
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+
+.search-options {
+    /*margin-top: -90px;*/
+    color: #a9794d;
+    padding-left: 10px;
+}
+
+
+    .search-options h2 {
+        padding: 10px;
+        color: #3B969A;
+        /*font-family: 'Shadows Into Light Two', cursive;*/
+        margin-top: 0px;
+    }
+
+p.lead {
+    margin-bottom: 0px;
+}
+#txtSearch {
+    /*border: solid 1px #0F7074;*/
+    border: solid 1px #000000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-left: 10px;
+    margin-bottom:10px;
+    font-family: 'Shadows Into Light Two', cursive;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    /*color: #0F7074;*/
+}
+
+.search-control {
+    /*border: solid 1px #0F7074;*/
+    border: solid 1px #000000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-left: 10px;
+    /*font-family: 'Shadows Into Light Two', cursive;*/
+    height: 40px;
+    font-size: 16px;
+    /*font-weight: 700;*/
+    /*color: #0F7074;*/
+    color: #000000;
+}
+
+.search-button {
+    border: solid 1px #0F7074;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-left: 10px;
+    font-family: 'Shadows Into Light Two', cursive;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F7074;
+}
+
+
+#txtSearch::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    /*color: #61b7bb;*/
+    color: gray;
+    opacity: 1; /* Firefox */
+}
+
+#txtSearch:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: gray;
+    /*color: #61b7bb;*/
+}
+
+#txtSearch::-ms-input-placeholder { /* Microsoft Edge */
+    /*color: #61b7bb;*/
+    color: gray;
+}
+
+#divSearchOptions h2
+{
+    margin-bottom: 0px;
+}
+
+#divSearchOptions p {
+    color: #000000;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#btnClearSearch {
+    vertical-align: middle;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn-search {
+    color: #ffffff;
+    background-color: #3b969a;
+    border: solid 1px #0F7074;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    vertical-align: middle;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+    .btn-search:hover,
+    .btn-search:focus,
+    .btn-search:active,
+    .btn-search.active,
+    .open .dropdown-toggle.btn-search {
+        color: #ffffff;
+        background-color: #24878B;
+        border-color: #0F7074;
+    }
+
+    .btn-search:active,
+    .btn-search.active,
+    .open .dropdown-toggle.btn-search {
+        background-image: none;
+    }
+
+    .btn-search.disabled,
+    .btn-search[disabled],
+    fieldset[disabled] .btn-search,
+    .btn-search.disabled:hover,
+    .btn-search[disabled]:hover,
+    fieldset[disabled] .btn-search:hover,
+    .btn-search.disabled:focus,
+    .btn-search[disabled]:focus,
+    fieldset[disabled] .btn-search:focus,
+    .btn-search.disabled:active,
+    .btn-search[disabled]:active,
+    fieldset[disabled] .btn-search:active,
+    .btn-search.disabled.active,
+    .btn-search[disabled].active,
+    fieldset[disabled] .btn-search.active {
+        background-color: #3b969a;
+        border-color: #0F7074;
+    }
+
+    .btn-search .badge {
+        color: #3b969a;
+        background-color: #ffffff;
+    }
+
+#divSearchOptions {
+    color: #000000;
+}
+
+/* Safes and Fails Rows */
+
+.search-badge {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.search-badge {
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.transform-selected {
+    background-color: #ff6360;
+    padding: 7px;
+}
+
+#pMissingSafe {
+    font-size: small;
+    cursor: pointer;
+}
+
+#divFilters {
+    background-color: ##CBCBCB;
+    color: #000;
+    font-size: 18px;
+    padding: 5px;
+    /*filter: brightness(120%);*/
+    font-weight: 400;
+}
+
+#divFilters div {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/*MANAGE MY ACCOUNT SCREEN*/
+#divAccountSettings div {
+    border: solid 1px gray;
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+
+    #divAccountSettings i {
+        color: gray;
+        margin-right: 20px;
+    }
+
+#divAccountSettings h3 {
+    margin-top: 40px;
+    font-weight: 200;
+}
+
+#loginForm .form-group {
+    line-height: 0.6;
+}
+
+div.myRecipe {
+    border-bottom: solid 1px gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+.border-slim {
+    border: solid 1px black;
+}
+
+/*RECIPE ENTRY*/
+.divWholeImagePanelOpen 
+{
+    padding: 10px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-iframe {
+
+}
+
+.btn-file input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+    .btn-iframe input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: left;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+#btnLoadIframe {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: auto;
+}
+
+#imgUpload {
+    width: 100%;
+}
+
+.imgUploadInput
+{
+    height: 43px;
+}
+
+#spnRevert {
+    cursor: pointer;
+    color: #ff6360;
+}
+
+
+
+
+.jcrop-holder {
+    display: inline-block;
+    background-color: #000;
+    border: rgba(128, 128, 128, 0.33) dashed 1px;
+}
+
+.canvasSource
+{
+    background-color: white;
+}
+
+.fixed-filter-row {
+    position: absolute;
+    z-index: 300;
+    top: 0;
+    width: 100%;
+}
+
+.default-main {
+    margin-top:0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.search-sort-bar {
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding: 0px 10px 0px 0px;
+    /*background-color: rgb(214,216,217);*/
+}
+
+.search-sort-bar i {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.search-sort-bar .text {
+    padding: 9px;
+    padding-left: 30px;
+}
+
+.search-sort-bar i:hover {
+    background-color: #c9cbcd;
+    border-color: #bcbfc0;
+}
+
+.dropdown-menu.sort {
+    right: 0;
+    left: inherit;
+}
+
+i.sort-option
+{
+    padding: 0px;
+}
+
+i.sort-option:hover {
+    padding: 0px;
+    background-color: inherit;
+    border-color: none;
+}
+
+.nav > li.my-account {
+    padding-left:15px;
+    display:none;
+}
+
+.modal-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bootstrap-tagsinput {
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 6px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.bootstrap-tagsinput > span.label-info {
+    background-color: #ff6360;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.tags-group > .bootstrap-tagsinput > span.label-info {
+    background-color: gray;
+}
+
+.tt-menu {
+    background-color: white;
+    border: solid 1px black;
+    font-size: 18px;
+}
+
+.tt-input, .twitter-typeahead {
+    font-size: 18px;
+}
+
+.tt-suggestion:hover {
+    background-color: #f7f7f7;
+}
+
+.tt-hint {
+    color: lightgray;
+}
+
+a.fa.fa-star, a.fa.fa-star-o, a.fa.fa-star-half-o, a.fa.fa-star:focus, a.fa.fa-star-o:focus, a.fa.fa-star-half-o:focus {
+    text-decoration: none;
+}
+
+/* Validation */
+.invalid {
+    border-color: #9c0c09 !important;
+    color: #9c0c09 !important;
+}
